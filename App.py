@@ -231,7 +231,7 @@ tfidf = pickle.load(open(os.path.join(BASE_DIR, 'vectorizer.pkl'), 'rb'))
 model = pickle.load(open(os.path.join(BASE_DIR, 'model.pkl'), 'rb'))
 
 # ---------------- ENHANCED UI ----------------
-st.markdown('<div class="container">', unsafe_allow_html=True)
+
 
 st.markdown("<h1>📧 SpamGuard AI</h1>", unsafe_allow_html=True)
 st.markdown("<p class='subtitle'>Advanced machine learning model to detect spam emails and SMS messages</p>", unsafe_allow_html=True)
