@@ -233,7 +233,6 @@ model = pickle.load(open(os.path.join(BASE_DIR, 'model.pkl'), 'rb'))
 # ---------------- ENHANCED UI ----------------
 st.markdown('<div class="container">', unsafe_allow_html=True)
 
-st.markdown("<h1>📧 SpamGuard AI</h1>", unsafe_allow_html=True)
 st.markdown("<p class='subtitle'>Advanced machine learning model to detect spam emails and SMS messages</p>", unsafe_allow_html=True)
 
 # Features showcase
@@ -303,15 +302,6 @@ if predict_btn:
                     unsafe_allow_html=True
                 )
 
-# Footer
-st.markdown(
-    """
-    <div class="footer">
-        <p>Powered by Machine Learning • Built with Streamlit</p>
-        <p>Model accuracy: 98.2% • Last updated: 2024</p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+
 
 st.markdown('</div>', unsafe_allow_html=True)
